@@ -1,4 +1,5 @@
-import 'Carro.dart';
+import 'model/Carro.dart';
+import 'model/Livro.dart';
 
 void main(){
 
@@ -6,4 +7,8 @@ void main(){
   print(carro1);
 
  print( carro1.getModelo);
+
+
+ Livro livro1 = Livro("A ilha de epistem", "Todo mundo em panico", 1);
+ print(livro1);
 }
